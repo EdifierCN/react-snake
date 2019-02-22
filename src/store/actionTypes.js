@@ -1,0 +1,20 @@
+
+export const todoActionTypes = {
+  ADD: 'ADD_TODO',
+  REMOVE: 'REMOVE_TODO',
+  TOGGLE: 'TOGGLE_TODO',
+  FILTER: 'SET_TODO_FILTER',
+};
+
+export const subredditTypes = {
+  SELECT: 'SELECT_SUBREDDIT',
+  INVALIDATE: 'INVALIDATE_SUBREDDIT',
+  REQUEST: 'REQUEST_POSTS',
+  RECEIVE: 'RECEIVE_POSTS',
+};
+
+export const postTypes = {
+  REQUEST: 'REQUEST_POST',
+  CREATE: 'CREATE_POST',
+  ADD_COMMENT: 'ADD_COMMENT',
+};
